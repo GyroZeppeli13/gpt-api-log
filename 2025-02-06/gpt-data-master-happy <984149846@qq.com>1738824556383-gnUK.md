@@ -10,7 +10,7 @@ ChatGPT:
       # 官网地址 https://api.openai.com/ 1美金:7人民币
       api-host: https://api.openai.com/
       # 官网申请 https://platform.openai.com/account/api-keys
-      api-key: f747bf4c0f79466c976bf70d2856
+      api-key: 
 ```
 
 **变更后：**
@@ -21,12 +21,12 @@ ChatGPT:
       # 官网地址 https://api.deepseek.com/
       api-host: https://api.deepseek.com/
       # 官网申请 https://platform.openai.com/account/api-keys
-      api-key: sk-59c66974e15f43c6b05e4e2fca9f4ba6
+      api-key: 
 ```
 
 **评审：**
 - **变更原因**：从 `api.openai.com` 更改为 `api.deepseek.com`，这可能是由于项目迁移到了 DeepSeek 的服务。
-- **API 密钥**：API 密钥从 `f747bf4c0f79466c976bf70d2856` 更改为 `sk-59c66974e15f43c6b05e4e2fca9f4ba6`，确保新的密钥是有效的，并且与 DeepSeek 服务兼容。
+- **API 密钥**：API 密钥从 `` 更改为 ``，确保新的密钥是有效的，并且与 DeepSeek 服务兼容。
 - **注释**：注释中提到了人民币汇率，这可能是旧服务的标识，新服务可能没有这样的注释。
 - **建议**：在变更配置文件时，应确保所有相关的文档和团队成员都了解这些更改，以避免未来的混淆。
 
